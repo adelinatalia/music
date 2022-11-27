@@ -1,11 +1,22 @@
 {
-    "compilerOptions": {
-      "baseUrl": ".",
-      "paths": {
-        "@/components/*": ["components/*"],
-        "@/img/*": ["public/img/*"],
-        "@/hooks/*": ["hooks/*"],
-        "@/library/*": ["library/*"]
-      }
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/img/*": [
+        "public/img/*"
+      ],
+      "@/icons/*": [
+        "public/icons/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/library/*": [
+        "library/*"
+      ]
     }
   }
+}
