@@ -15,12 +15,38 @@ a {
 
   a {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 0.9em;
     text-decoration: none;
     text-transform: uppercase;
 
     &:not(:last-of-type) {
-      margin-right: 1rem;
+      margin-right: 2.5rem;
+    }
+  }
+
+  &__btns {
+    margin-left: auto;
+    display: flex;
+    gap: 0 2rem;
+
+    &__btn {
+      cursor: pointer;
+    }
+  }
+
+  &__form {
+    margin-left: auto;
+
+    label {
+      padding: 0.2em 0.5em;
+      border-radius: 0.5em;
+      background-color: #585275;
+    }
+
+    input {
+      background-color: #585275;
+      border: none;
+      outline: none;
     }
   }
 }
