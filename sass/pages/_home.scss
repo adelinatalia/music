@@ -1,0 +1,29 @@
+.hero {
+    justify-content: space-between;
+
+    &__heading {
+        width: 30rem;
+        // height: 10rem;
+        // flex: 1;
+    }
+
+    &__text {
+        width: 26rem;
+        line-height: 1.5em;
+    }
+
+    &__image {
+        align-self: flex-start;
+        margin-top: -3rem;
+    }
+
+    &__buttons {
+        margin-top: 4.5rem;
+
+        &__btn {
+            margin-left: 0;
+
+        }
+    }
+
+}
