@@ -1,0 +1,24 @@
+@use '../globals/index' as *;
+
+body {
+  background: $black;
+  color: $white;
+}
+
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1 0 auto;
+}
+
+.inner-width {
+  width: 100%;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}

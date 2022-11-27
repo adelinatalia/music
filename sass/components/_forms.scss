@@ -1,0 +1,28 @@
+@use '../globals/index' as *;
+
+.button-form {
+  margin: 0.5rem;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background: $purple;
+  color: $black;
+  border: none;
+  border-radius: 0.5em;
+  box-shadow: none;
+
+  &[disabled] {
+    background: $text;
+  }
+}
+
+.autosuggest {
+  input {
+    background: $white;
+    color: $dark-purple;
+
+    &::placeholder {
+      color: $black;
+    }
+  }
+}

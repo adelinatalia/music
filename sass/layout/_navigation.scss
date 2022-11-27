@@ -1,0 +1,26 @@
+@use '../globals/index' as *;
+
+a {
+  color: var(--link-color);
+  transition: color 0.1s ease-out;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
+}
+
+.site-navigation {
+  padding: 1rem 0;
+
+  a {
+    display: inline-block;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:not(:last-of-type) {
+      margin-right: 1rem;
+    }
+  }
+}

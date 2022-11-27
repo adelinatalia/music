@@ -1,0 +1,25 @@
+// @use '../globals/colors';
+
+button {
+    margin: 0.5rem;
+    padding: 0.8em 1.2em;
+    font-size: 1.0rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 15px;
+    border-radius: 0.5em;
+    background: none;
+    color: inherit;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-main {
+    background: linear-gradient(109.14deg, #8119C8 32.34%, #739AFF 104.02%);
+}
+
+.btn-outline {
+    background: none;
+    border: 1px solid #7966E9;
+    color: #7966E9;
+}
