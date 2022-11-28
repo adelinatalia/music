@@ -3,6 +3,9 @@
 body {
   background: $black;
   color: $white;
+  background: rgb(60, 26, 144);
+  background: linear-gradient(263deg, rgba(32, 17, 113, 0.779) 0%, rgba(65, 8, 106, 0.925) 0%, rgb(25, 12, 88) 100%);
+  ;
 }
 
 .site-wrapper {
@@ -21,4 +24,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
