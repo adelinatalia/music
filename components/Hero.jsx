@@ -7,7 +7,7 @@ export default function Hero() {
             <div className='flex-column'>
                 <div className="hero__heading flex-column">
                     <h1>Discover digital Art and collect <span className='gradient-text'> Musik </span> Platform</h1>
-                    <p className='hero__text'>Entdecke Musikneuheiten sowie im Trend liegende Alben und erstelle deine eigene Musiksammlung.</p>
+                    <p className='hero__text'>Entdecke Musikneuheiten sowie im Trend liegende Alben und erstelle deine eigene Playlist</p>
                 </div>
                 <div className="hero__buttons flex-row">
                     <button className='btn-primary hero__btn'>entdecke</button>

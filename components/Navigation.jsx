@@ -10,7 +10,7 @@ export default function Navigation() {
             <Link href="/">artists</Link>
             <Link href="/">albums</Link>
             <Link href="/">tracks</Link>
-            <Link href="/">playlist</Link>
+            {/* <Link href="/">playlist</Link> */}
             <Link href="/">lyrics</Link>
 
             <form className='site-navigation__form '>
