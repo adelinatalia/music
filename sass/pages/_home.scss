@@ -2,23 +2,27 @@
     justify-content: space-between;
 
     &__heading {
+        h1 {
+            font-size: 3em;
+        }
+
         width: 30rem;
-        // height: 10rem;
-        // flex: 1;
+        // margin-top: 1rem;
     }
 
     &__text {
         width: 26rem;
         line-height: 1.5em;
+        margin-top: -0.7rem;
     }
 
     &__image {
         align-self: flex-start;
-        margin-top: -3rem;
+        margin-top: -1.5rem;
     }
 
     &__buttons {
-        margin-top: 4.5rem;
+        margin-top: 2.5rem;
 
         &__btn {
             margin-left: 0;
