@@ -10,9 +10,9 @@ export default function Navigation() {
             <div className='site-navigation__main-items'>
                 {/* <Link href="/">home</Link> */}
                 <Link href="/songs">songs</Link>
-                <Link href="/">artists</Link>
-                <Link href="/">albums</Link>
                 <Link href="/">tracks</Link>
+                <Link href="/">albums</Link>
+                <Link href="/">artists</Link>
                 {/* <Link href="/">playlist</Link> */}
                 <Link href="/">lyrics</Link>
             </div>
