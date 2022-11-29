@@ -11,6 +11,7 @@ a {
 }
 
 .site-navigation {
+  width: 100%;
   padding: 1rem 0;
 
   a {
@@ -20,14 +21,19 @@ a {
     text-transform: uppercase;
 
     &:not(:last-of-type) {
-      margin-right: 2.5rem;
+      margin-right: 3.5rem;
     }
   }
 
+  &__main-items {
+    align-self: center;
+    margin: 0 auto;
+  }
+
   &__btns {
-    margin-left: auto;
     display: flex;
-    gap: 0 2rem;
+    // margin-left: auto;
+    // gap: 0 2rem;
 
     &__btn {
       cursor: pointer;
