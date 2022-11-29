@@ -12,7 +12,7 @@ export default function Navigation() {
                 <Link href="/songs">songs</Link>
                 <Link href="/">tracks</Link>
                 <Link href="/">albums</Link>
-                <Link href="/">artists</Link>
+                <Link href="/artist">artists</Link>
                 {/* <Link href="/">playlist</Link> */}
                 <Link href="/">lyrics</Link>
             </div>

@@ -64,14 +64,7 @@ export default function Songs() {
                 <input type="text" placeholder='suche nach Song...' onChange={(e) => setSearchValue(e.target.value)} />
             </form>
 
-            <div className="filter">
-                <section>
-                    <option value="filter">filter</option>
-                    {music && music.map(({ primaryGenreName }) => <option value="">{primaryGenreName}</option>)
-                    }
 
-                </section>
-            </div>
 
             <ul className='song__list flex-row'>
                 {music && music.map(({ artistName, trackName, previewUrl, trackCensoredName, artworkUrl100, trackViewUrl, primaryGenreName, artistId }) => {
